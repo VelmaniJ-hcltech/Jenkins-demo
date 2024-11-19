@@ -3,7 +3,7 @@ pipeline {
   stages {
       stage('Build') {
           steps {
-              git branch: 'development', url: 'https://github.com/VelmaniJ-hcltech/GeneralSpringBootProgExce.git'
+              git branch: 'main', url: 'https://github.com/VelmaniJ-hcltech/Jenkins-demo.git'
               sh 'mvn clean package'
           }
       }
